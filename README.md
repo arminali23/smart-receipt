@@ -78,16 +78,19 @@ Frontend
 	•	image_picker
 
 ## Running the App
-Backend (requires Tesseract OCR installed: brew install tesseract):
+Backend requires Tesseract OCR installed: 
+``` brew install tesseract ``` 
 
-
+``` 
 cd backend
 source ../.venv/bin/activate
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+``` 
 Frontend (requires Flutter SDK):
 
-
+``` 
 cd frontend
 flutter pub get
 flutter run
+``` 
 The API docs will be available at http://localhost:8000/docs for testing.
