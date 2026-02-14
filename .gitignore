@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Flutter
+build/
+.dart_tool/
+.packages
+pubspec.lock
+
+# IDE
+.vscode/
+.idea/
